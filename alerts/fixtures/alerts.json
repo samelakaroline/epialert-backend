@@ -1,0 +1,46 @@
+[
+    {
+        "model": "alerts.alert",
+        "pk": 14,
+        "fields": {
+            "location": "Ibirapuera",
+            "epidemic": "Dengue",
+            "severity": "alta",
+            "status": "não verificado",
+            "created_at": "2024-11-11T23:00:00Z"
+        }
+    },
+    {
+        "model": "alerts.alert",
+        "pk": 15,
+        "fields": {
+            "location": "Vila Serrana",
+            "epidemic": "Gripe",
+            "severity": "baixa",
+            "status": "verificado",
+            "created_at": "2024-11-20T22:00:00Z"
+        }
+    },
+    {
+        "model": "alerts.alert",
+        "pk": 16,
+        "fields": {
+            "location": "Patagônia",
+            "epidemic": "Zika Vírus",
+            "severity": "alta",
+            "status": "nao verificado",
+            "created_at": "2024-11-20T15:30:00Z"
+        }
+    },
+    {
+        "model": "alerts.alert",
+        "pk": 17,
+        "fields": {
+            "location": "Candeias",
+            "epidemic": "Zika Vírus",
+            "severity": "baixa",
+            "status": "nao verificado",
+            "created_at": "2024-11-20T15:30:00Z"
+        }
+    }
+]
