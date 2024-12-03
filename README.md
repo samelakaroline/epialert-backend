@@ -50,6 +50,24 @@ O EpiAlert System é uma aplicação desenvolvida para monitorar e emitir alerta
 
    Abra o navegador e acesse [http://127.0.0.1:8000](http://127.0.0.1:8000) para visualizar a aplicação.
 
+## Rotas para testar
+
+1. Para testar a autenticação acessar `http://127.0.0.0.1:8000/admin` e autenticar com: 
+
+   `usuario: django`
+   `senha: django`
+
+2. Testar as rotas no insomnia:
+
+   - Para autenticar no insomnia adicicionar o token no campo Headers, segue o token `afdeb0758a4049ed2d031610190b79078deecd69`, após isso testar as rotas.
+   - Rota de geração de dados de alertas para criação do dashboard: `http://127.0.0.1:8000/dashboards/unresolved-alerts-pie-chart`
+   - Rota para testar os endpoints de alerts: 
+
+      `http://127.0.0.1:8000/alerts/list`
+      `http://127.0.0.1:8000/alerts/metrics`
+      `http://127.0.0.1:8000/alerts/combined`
+      `http://127.0.0.1:8000/alerts/global`
+
 ## Tecnologias Utilizadas
 
 - **Python 3.12**;
